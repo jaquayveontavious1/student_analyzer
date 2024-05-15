@@ -56,8 +56,6 @@ def calculation() :
     for student,grades in students.items() :
         average_grade = sum(grades) / len(grades)
         if (average_grade > threshold) :
-            print(f"{student} : {average_grade}")
-
-   
+            print(f"{student} ")
 
 calculation()
